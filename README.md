@@ -24,23 +24,12 @@ pip install pandas requests numpy matplotlib seaborn sklearn
    ```bash
    python main.py
    ```
-3. **Generate Graphs**:
-   ```bash
-   python generate_graphs.py
-   ```
+
 
 ### API Setup
 Get your free Etherscan API key from [etherscan.io/apis](https://etherscan.io/apis) and update the `API_KEY` variable in `main.py`.
 
-## Files Structure
-```
-├── main.py                    # Core risk scoring implementation
-├── generate_graphs.py         # Graph generation and statistics
-├── wallet_addresses.csv       # Input wallet addresses
-├── wallet_risk_scores.csv     # Output risk scores
-├── analysis_report.md         # Detailed methodology report
-└── README.md                  # This file
-```
+
 
 ## Risk Scoring Methodology
 
