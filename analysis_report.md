@@ -66,7 +66,7 @@ Monitored Compound addresses: Comptroller V2, cUSDC, cDAI, cETH, cUSDT, cWBTC, C
 ## 5. Results Analysis
 
 ### Score Distribution
-**[GRAPH 1: Risk Distribution - Placeholder for matplotlib histogram]**
+<img width="2968" height="1768" alt="risk_distribution" src="https://github.com/user-attachments/assets/b12d2448-2f99-4b3d-a457-70253df0c35f" />
 
 - **Low Risk (0-299)**: 1 wallet (1%)
 - **Medium Risk (300-699)**: 15 wallets (15%)
@@ -75,14 +75,14 @@ Monitored Compound addresses: Comptroller V2, cUSDC, cDAI, cETH, cUSDT, cWBTC, C
 **Average Score**: 731.5 | **Range**: 0-1000
 
 ### Key Findings
-**[GRAPH 2: Feature Correlation - Placeholder for matplotlib scatter plots]**
+<img width="4456" height="3543" alt="wallet_risk_analysis" src="https://github.com/user-attachments/assets/bf37f5b0-99f2-4094-84a0-24bf3b7f47f4" />
 
 - **High-Risk Concentration**: 84% of wallets show significant risk factors
 - **Primary Risk Drivers**: Limited DeFi participation, low activity, inactivity
 - **Notable Outliers**: 2 wallets achieved perfect scores (0), 1 maximum risk (1000)
 
 ### Risk Pattern Analysis
-**[GRAPH 3: Activity vs Risk Score - Placeholder for matplotlib scatter plot]**
+<img width="3340" height="1768" alt="risk_pattern" src="https://github.com/user-attachments/assets/5f83f431-0918-45b3-ad64-83c87b5b48d5" />
 
 Most high-risk wallets exhibited:
 - Minimal Compound protocol engagement
@@ -119,7 +119,3 @@ The wallet risk scoring system successfully quantifies blockchain transaction ri
 
 The predominance of high-risk wallets (84%) suggests either targeted risk selection or broader patterns of limited DeFi engagement, warranting enhanced scrutiny for the majority of analyzed addresses.
 
----
-**Technical Stack**: Python, Etherscan API, Pandas, NumPy  
-**Processing Time**: ~20 minutes for 100 wallets  
-**Success Rate**: 100% data retrieval and processing
